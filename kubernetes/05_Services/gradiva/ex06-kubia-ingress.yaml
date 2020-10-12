@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: kubia
+  name: kubia-ingress
 spec:
   rules:
   - host: kubia.example.com
