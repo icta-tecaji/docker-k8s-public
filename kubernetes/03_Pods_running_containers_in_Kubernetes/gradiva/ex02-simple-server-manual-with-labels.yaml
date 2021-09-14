@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kubia-manual-v2
+  name: simple-server-manual-v2
   labels:
     creation_method: manual
     env: prod
 spec:
   containers:
-   - image: luksa/kubia
-     name: kubia
+   - image: leon11sj/simple_server
+     name: simple-server
      ports:
      - containerPort: 8080
        protocol: TCP

@@ -1,1 +1,2 @@
-# docker-k8s-public
+# Praktična delavnica Docker & Kubernetes
+
