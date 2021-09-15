@@ -9,4 +9,4 @@
 - `docker run hello-world`
 - `docker image ls`
 - `docker ps --all`
-- `docker rm $(sudo docker ps -aq)`
+- `docker rm $(docker ps -aq)`
