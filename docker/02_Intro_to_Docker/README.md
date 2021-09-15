@@ -8,6 +8,7 @@
     - `sudo systemctl start nginx`
     - `sudo systemctl status nginx`
     - `curl http://127.0.0.1 ali IP virtualke`
+    - `sudo systemctl stop nginx`
 - Pri nameščanju druge instance naletimo na težave
 - Namestitev z Dockerjem:
     - Poberemo sliko iz Docker repozitorija: `docker pull nginx`
@@ -19,7 +20,7 @@
     - Check how many instances are running:
         - List all running container processes: `docker ps`
         - `sudo ps aux | grep nginx`
-        - `ps tree`
+        - `pstree`
     - Stop all rhe containers: `docker stop $(docker ps -aq)`
     - Remove all the containers: `docker rm $(docker ps -aq)`
     - Expose the container port: `docker run -d -p "80:80" nginx`
