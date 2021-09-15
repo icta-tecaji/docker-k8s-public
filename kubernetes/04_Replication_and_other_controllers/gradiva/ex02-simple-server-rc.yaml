@@ -1,18 +1,18 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: kubia
+  name: simple-server
 spec:
   replicas: 3
   selector:
-    app: kubia
+    app: simple-server
   template:
     metadata:
       labels:
-        app: kubia
+        app: simple-server
     spec:
       containers:
-      - name: kubia
-        image: luksa/kubia
+      - name: simple-server
+        image: leon11sj/simple_server
         ports:
         - containerPort: 8080
