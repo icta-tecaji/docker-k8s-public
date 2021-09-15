@@ -30,3 +30,4 @@ docker rm $CID
 - Run each in a different container, like this:
     - `docker run -d --name webA nginx:latest docker logs webA`
     - `docker run -d --name webB nginx:latest docker logs webB`
+- Clean up: `docker rm -vf $(docker ps -a -q)`
