@@ -41,3 +41,4 @@ USER app
 
 
 ENTRYPOINT ["python", "main.py"]
+CMD ["-B"]

@@ -12,7 +12,7 @@ services:
       - frontend
   web:
     image: leon11sj/counter
-    entrypoint: ["gunicorn", "--bind", "0.0.0.0:5000", "wsgi:app"]
+    entrypoint: ["gunicorn", "--bind", "0.0.0.0:5000", "composetest.wsgi:app"]
     expose:
       - 5000
     networks:

@@ -18,3 +18,4 @@ docker run -d --name diaweb \
     -p 80:80 \
     nginx
 ```
+- Clean up: `docker rm -vf $(docker ps -a -q)`
