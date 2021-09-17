@@ -62,7 +62,7 @@ docker run -d \
     - `nslookup lighthouse`
     - `ping lighthouse`
     - `exit`
-    - `docker rm -f lighthouse network-explore`
+    - `docker rm -f lighthouse network-explorer`
     - `docker network ls`
     - `docker network rm user-network user-network2`
     

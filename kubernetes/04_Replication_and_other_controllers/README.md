@@ -32,3 +32,15 @@
     - `kubectl get rs`
     - `kubectl describe rs simple-server`
 - Delete ReplicaSet: `kubectl delete rs simple-server`
+
+## Running exactly one pod on each node with DaemonSets
+- Run: ` kubectl apply -f ex04-ssd-monitor-daemonset.yaml`
+- Let’s see the created DaemonSet: `kubectl get ds`
+- List the pods: `kubectl get pods`
+- Check the node name: `kubectl get node`
+- Adding the required label to your node: `kubectl label node icta disk=ssd`
+- List the pods: `kubectl get pods`
+- Removing the required label from the node: `kubectl label node icta disk=hdd --overwrite`
+- List the pods: `kubectl get pods`
+- Delete DaemonSet: `kubectl delete ds ssd-monitor`
+
