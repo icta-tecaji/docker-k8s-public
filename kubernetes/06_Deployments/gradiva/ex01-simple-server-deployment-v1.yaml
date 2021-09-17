@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kubia
+  name: simple-server
 spec:
   replicas: 3
   template:
     metadata:
-      name: kubia
+      name: simple-server
       labels:
-        app: kubia
+        app: simple-server
     spec:
       containers:
-      - image: leon11sj/kubia:v1
+      - image: leon11sj/simple-server:v1
         name: nodejs
   selector:
     matchLabels:
-      app: kubia
+      app: simple-server
