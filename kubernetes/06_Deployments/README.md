@@ -5,6 +5,9 @@
     - `docker build -t leon11sj/simple-server:v1 .`
     - `docker push leon11sj/simple-server:v1`
 - Creating the Deployment resource: `kubectl apply -f ex01-simple-server-deployment-v1.yaml --record`
+- Creating service: `kubectl apply -f ex01-service.yaml`
+- Displaying the status of the deployment rollout: `kubectl rollout status deployment simple-server`
+- List pods: `kubectl get pods`
 
 
 ## 2048 Game deploy
