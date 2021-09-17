@@ -44,3 +44,4 @@
 - List the pods: `kubectl get pods`
 - Delete DaemonSet: `kubectl delete ds ssd-monitor`
 
+

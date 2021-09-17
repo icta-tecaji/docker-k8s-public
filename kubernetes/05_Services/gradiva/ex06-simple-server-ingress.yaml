@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: simple-server-ingress
+spec:
+  rules:
+  - host: simple-server.example.com
+    http:
+      paths:
+      - path: /hostname
+        pathType: Prefix
+        backend:
+          service:
+            name: simple-server-nodeport
+            port: 
+              number: 80
+
