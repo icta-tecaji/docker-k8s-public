@@ -29,7 +29,7 @@
 - List pods: `kubectl get pods`
 
 ## Accessing your web application
-- Creating a Service object: ` kubectl expose pod simple-server --port=80 --target-port=8080 --name=simple-server-service --type=NodePort`
+- Creating a Service object: `kubectl expose pod simple-server --port=80 --target-port=8080 --name=simple-server-service --type=NodePort`
 - Listing services: `kubectl get services`
 - Accessing your service through its external IP: `curl <HOST_IP>:<PORT>`
 
