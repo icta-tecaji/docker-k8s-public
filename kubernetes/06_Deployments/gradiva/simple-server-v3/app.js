@@ -3,7 +3,7 @@ const os = require('os');
 
 var requestCount = 0;
 
-console.log("Kubia server starting...");
+console.log("Simple server starting...");
 
 var handler = function(request, response) {
   console.log("Received request from " + request.connection.remoteAddress);
