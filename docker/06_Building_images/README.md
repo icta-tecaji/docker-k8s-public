@@ -1,1 +1,0 @@
-# Del 6: Gradnja Docker slik
