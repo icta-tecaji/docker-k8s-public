@@ -80,7 +80,7 @@
 - Overview of Docker Compose and installation
 - Compose background
 - Running a application with Compose: counter-app
-- Development with Compose
+- Development with Compose 
 - Production deployment with Compose: counter-app
 - Scaling and Load Balancing using Compose
 
@@ -92,9 +92,9 @@
 - Starting containers with dependency checks
 - Defining health checks and dependency checks in Docker Compose
 
-## [Del 10: Container orchestration and microservices](./16_Container_orchestration_and_microservices/README.md)
+## [Del 10: Container orchestration and microservices](./10_Container_orchestration_and_microservices/README.md)
 
-## [Del 11: Introduction to Kubernetes](./17_Introduction_to_Kubernetes/README.md)
+## [Del 11: Introduction to Kubernetes](./11_Introduction_to_Kubernetes/README.md)
 - About Kubernetes
 - Kubernetes history
 - Understanding Kubernetes
