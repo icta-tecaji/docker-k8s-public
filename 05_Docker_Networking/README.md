@@ -34,6 +34,9 @@
 - `sudo docker container rm -f alpine1 alpine2`
 
 ### Use user-defined bridge networks
+
+![Docker networks](./images/networks-docker.png)
+
 - `sudo docker network create --driver bridge alpine-net1`
 - `sudo docker network ls`
 - `sudo docker network inspect alpine-net1` 
