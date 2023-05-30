@@ -106,3 +106,14 @@
 - How Kubernetes runs an application
 - Deploying your first application
 
+## [Del 12: Kubernetes Pods](./12_Kubernetes_Pods/README.md)
+- Pod theory
+- Understanding pods
+- Sidecar containers
+- Creating pods
+- Viewing application logs
+- Copying files to and from containers
+- Executing commands in running containers
+- Running multiple containers in a pod
+- Running init containers
+- Deleting pods and other objects
