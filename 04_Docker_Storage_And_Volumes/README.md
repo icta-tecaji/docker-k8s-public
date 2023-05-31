@@ -61,7 +61,7 @@ Run:
 
 Example of sharing a volume:
 - `sudo docker run -d --name=nginxtest -p 80:80 -v nginx-vol:/usr/share/nginx/html:ro nginx:latest`
-- `sudo docker run -d --name=nginxtest -v nginx-vol:/web-data busybox:latest sleep 5000`
+- `sudo docker run -d --name=downloader -v nginx-vol:/web-data busybox:latest sleep 5000`
 - `sudo docker exec -it downloader /bin/sh`
 - `cd web-data`
 - `wget https://example.com/ -O index.html`
