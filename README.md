@@ -2,6 +2,10 @@
 
 - Prenesemo gradiva iz Git-a: `git clone https://github.com/icta-tecaji/docker-k8s-public.git`
 - [Namestimo VS Code](https://code.visualstudio.com/)
+- [Namestim Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
+- Namestimo dodatna orodja:
+    - `sudo apt update`
+    - `sudo apt -y install jq`
 
 ## [Del 1: Intro To Docker](./01_Intro_To_Docker/README.md)
 - Docker overview
@@ -93,6 +97,12 @@
 - Defining health checks and dependency checks in Docker Compose
 
 ## [Del 10: Container orchestration and microservices](./10_Container_orchestration_and_microservices/README.md)
+- Traditional applications
+- Microservices
+- Moving from monolithic apps to microservices
+- 12 Factor Apps
+- Container Orchestration
+- Kubernetes vs Docker Swarm
 
 ## [Del 11: Introduction to Kubernetes](./11_Introduction_to_Kubernetes/README.md)
 - About Kubernetes
