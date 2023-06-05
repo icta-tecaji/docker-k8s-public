@@ -1,5 +1,13 @@
 # Praktična delavnica Docker & Kubernetes
 
+## Info
+Wifi:
+- Uporabniki izberejo omrežje FE – guest
+- Username:i003
+- Password:7885
+
+
+## Predpogoji
 - Prenesemo gradiva iz Git-a: `git clone https://github.com/icta-tecaji/docker-k8s-public.git`
 - [Namestimo VS Code](https://code.visualstudio.com/)
 - [Namestim Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701)
