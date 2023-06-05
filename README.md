@@ -1,6 +1,9 @@
 # Praktična delavnica Docker & Kubernetes
 
 ## Info
+Anketa: 
+- https://forms.gle/mYkF7u7mDHWVUdH58
+
 Wifi:
 - Uporabniki izberejo omrežje FE – guest
 - Username:i003
