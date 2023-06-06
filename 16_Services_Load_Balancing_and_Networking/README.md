@@ -15,7 +15,7 @@
 - Delete nodePort service: `kubectl delete svc simple-server-nodeport`
 
 ## Creating an Ingress resource
-- Creating a NodePort service: `kubectl apply -f ex04-simple-server-svc-nodeport.yaml`
+<!-- - Creating a NodePort service: `kubectl apply -f ex04-simple-server-svc-nodeport.yaml` -->
 - Create an Ingress: `kubectl apply -f ex06-simple-server-ingress.yaml`
 - To look up the IP, you need to list Ingresses: `kubectl get ingresses`
 - Ensuring the host configured in the Ingress points to the Ingress’ IP address
