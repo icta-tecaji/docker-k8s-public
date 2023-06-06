@@ -23,3 +23,12 @@
 - Delete Ingress service: `kubectl delete ingress simple-server-ingress`
 - Delete nodePort service: `kubectl delete svc simple-server-nodeport`
 - Delete ReplicaSet: `kubectl delete rs simple-server`
+
+## 2048 Game deploy
+- To deploy a game called 2048 as a sample application, run the following commands:
+    - `kubectl apply -f deployment-2048.yaml`
+    - `kubectl apply -f node-port-service-2048.yaml`
+    - `kubectl apply -f ingress-2048.yaml`
+- To verify that the Ingress resource was created, wait a few minutes, and then run the following command:
+    - `kubectl get ingress`
+- Delete: `kubectl delete -f .`
