@@ -6,7 +6,7 @@ ADD . /code
 WORKDIR /code
 RUN pip install -r requirements.txt
 
-HEALTHCHECK --interval=5s --timeout=3s \
+HEALTHCHECK --interval=5s --timeout=3s --retries=3\
   CMD curl --fail http://localhost:5000/health
 
 CMD ["python", "app.py"]

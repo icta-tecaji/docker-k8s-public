@@ -7,4 +7,4 @@ ENV INTERVAL="3000"
 WORKDIR /web-ping
 COPY app.js .
 
-CMD ["node", "/web-ping/app.js"]
+CMD ["node", "app.js"]
